@@ -36,12 +36,12 @@ const Hero = () => {
                   </div>
                   <div className="-mt-4">
                     <div className="mx-auto ">
-                      <Link
+                      <a
                         href="tel:+22370504404"
                         className="ease-in-up block w-full  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover  md:px-9 lg:px-6 xl:px-9"
                       >
                         Appeler Nous
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
