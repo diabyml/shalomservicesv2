@@ -200,10 +200,16 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              ShalomServices{" "}
+              © 2023 ShalomServices{" "}
               {/* <a href="https://nextjstemplates.com" rel="nofollow noopener">
                 Next.js Templates
               </a> */}
+            </p>
+            <p className="flex justify-center space-x-2">
+              <span className="text-gray-400">Developed by</span>
+              <a href="https://diabyml.github.io/" target="_blank">
+                diaby.ml
+              </a>{" "}
             </p>
           </div>
         </div>
