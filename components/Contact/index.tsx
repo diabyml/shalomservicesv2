@@ -18,7 +18,11 @@ const Contact = () => {
                 Notre équipe d&lsquo;assistance vous répondra dès que possible
                 par e-mail.
               </p>
-              <form>
+              <form
+                encType="multipart/form-data"
+                action="https://formbold.com/s/oyMKz"
+                method="POST"
+              >
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -30,6 +34,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="text_input_1CB8B2B5-16C0-4703-824A-03FE61C221A7"
                         placeholder="Entrer votre nom"
                         className="w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -45,6 +50,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        name="email_input_52421DAD-4A03-48D4-BB85-EF9E273C4A2B"
                         placeholder="Entrer votre email"
                         className="w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -59,7 +65,7 @@ const Contact = () => {
                         Votre Message
                       </label>
                       <textarea
-                        name="message"
+                        name="text_area_4F8FB70D-341C-4A4A-8304-54DE75C47826"
                         rows={5}
                         placeholder="Entrer votre Message"
                         className="w-full resize-none rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
@@ -67,7 +73,10 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <button
+                      type="submit"
+                      className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+                    >
                       Envoyer
                     </button>
                   </div>

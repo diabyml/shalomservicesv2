@@ -19,23 +19,29 @@ const NewsLatterBox = () => {
         astuces pratiques et des promotions spéciales avec Shalom Service!
       </p>
       <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Entrer votre nom"
-          className="mb-4 w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Entrer votre email"
-          className="mb-4 w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="submit"
-          value="Souscrire"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-        />
+        <form
+          encType="multipart/form-data"
+          action="https://formbold.com/s/oPaKN"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="text_input_ACA4D698-93AE-4C88-8A32-43932CCFCC01"
+            placeholder="Entrer votre nom"
+            className="mb-4 w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+          />
+          <input
+            type="email"
+            name="email_input_A0716750-1055-413A-AC2B-3BD69D5C1178"
+            placeholder="Entrer votre email"
+            className="mb-4 w-full rounded-sm border border-stroke bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+          />
+          <input
+            type="submit"
+            value="Souscrire"
+            className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+          />
+        </form>
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
           Aucun spam garanti, veuillez donc ne pas envoyer de spam.
         </p>
