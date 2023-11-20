@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import customStyles from "styles/custom-styles.module.css";
 
 const Hero = () => {
@@ -32,6 +33,16 @@ const Hero = () => {
                       alt="Hero image"
                       className={customStyles.hoverImage}
                     />
+                  </div>
+                  <div className="-mt-4">
+                    <div className="mx-auto ">
+                      <Link
+                        href="tel:+22370504404"
+                        className="ease-in-up block w-full  rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover  md:px-9 lg:px-6 xl:px-9"
+                      >
+                        Appeler Nous
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -60,12 +60,12 @@ const AboutSectionOne = () => {
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
-                {/* <Image
-                  src="/images/about/about-image-dark.svg"
+                <Image
+                  src="/images/custom/repair1.png"
                   alt="about-image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                /> */}
+                />
               </div>
             </div>
           </div>
