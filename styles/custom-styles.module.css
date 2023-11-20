@@ -1,0 +1,11 @@
+.imageContainer {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.imageContainer:hover .hoverImage {
+  transform: translate(20px, 20px); /* Adjust the values for desired movement */
+  transition: transform 0.3s ease; /* Adjust the transition duration and easing */
+}
