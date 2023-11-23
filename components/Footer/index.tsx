@@ -207,7 +207,12 @@ const Footer = () => {
             </p>
             <p className="flex justify-center space-x-2">
               <span className="text-gray-400">Developed by</span>
-              <a href="https://diabyml.github.io/" target="_blank">
+              <a
+                href="https://diabyml.github.io/"
+                target="_blank"
+                without
+                rel="noreferrer"
+              >
                 diaby.ml
               </a>{" "}
             </p>
