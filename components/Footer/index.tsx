@@ -210,7 +210,6 @@ const Footer = () => {
               <a
                 href="https://diabyml.github.io/"
                 target="_blank"
-                without
                 rel="noreferrer"
               >
                 diaby.ml
