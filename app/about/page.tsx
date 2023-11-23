@@ -5,8 +5,9 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "À Propos de Shalom Service - Expertise en Réparation de Téléphones",
+  description:
+    "Découvrez qui nous sommes chez Shalom Service, votre partenaire de confiance pour la réparation de téléphones à Bamako Senou. Forts d'une équipe qualifiée, nous offrons des solutions rapides et fiables pour redonner vie à vos appareils électroniques.",
   // other metadata
 };
 

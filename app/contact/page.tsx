@@ -4,8 +4,9 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacter Shalomservices",
-  description: "",
+  title: "Contactez Shalom Service pour vos Réparations de Téléphones à Bamako",
+  description:
+    "Besoin d'une assistance rapide pour la réparation de votre téléphone à Bamako Senou? Contactez Shalom Service dès aujourd'hui. Nos coordonnées: téléphone 70504404, email shalomservices@gmail.com. Nous sommes là pour répondre à toutes vos questions et préoccupations.",
   // other metadata
 };
 

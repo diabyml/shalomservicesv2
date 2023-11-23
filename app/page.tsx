@@ -13,8 +13,9 @@ import Product from "@/components/Product";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ShalomService",
-  description: "shalomservice",
+  title: "Réparation de Téléphones à Bamako | Shalom Service",
+  description:
+    "Shalom Service offre des services de réparation de téléphone à Bamako. Confiez-nous vos besoins de réparation, de la réparation d'écran aux solutions techniques avancées. Qualité, rapidité et satisfaction garanties!",
   // other metadata
 };
 
